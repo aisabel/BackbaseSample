@@ -1,0 +1,784 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3707324193,
+              "status": "passed"
+            },
+            "match": {
+              "location": "updateRegister.beforeMethod()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Create new computer register",
+        "description": "",
+        "id": "create-new-computer-register;create-new-computer-register;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1779489666,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on homepage",
+            "match": {
+              "location": "createNewRegister.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1274176987,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click Add a new computer button",
+            "match": {
+              "location": "createNewRegister.add()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66329553,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I fill in computer name field with \"Nokia v1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nokia v1",
+                  "offset": 36
+                }
+              ],
+              "location": "createNewRegister.computerName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14146615,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I fill in introduced date field with \"1999-08-03\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1999-08-03",
+                  "offset": 38
+                }
+              ],
+              "location": "createNewRegister.introducedDate(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16198938,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I fill in discontinued date field with \"2099-08-03\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2099-08-03",
+                  "offset": 40
+                }
+              ],
+              "location": "createNewRegister.discontinuedDate(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 166070622,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select \"Nokia\" option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nokia",
+                  "offset": 10
+                }
+              ],
+              "location": "createNewRegister.selectCompany(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 351152425,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click create this computer button",
+            "match": {
+              "location": "createNewRegister.createThisComputer()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16262162,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I verify success message is displayed",
+            "match": {
+              "location": "createNewRegister.verifySuccessMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@BACKBASE-01"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 20191093,
+              "status": "passed"
+            },
+            "match": {
+              "location": "updateRegister.beforeMethod()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Create new computer register",
+        "description": "",
+        "id": "create-new-computer-register;create-new-computer-register;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 541422306,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on homepage",
+            "match": {
+              "location": "createNewRegister.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1020113910,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click Add a new computer button",
+            "match": {
+              "location": "createNewRegister.add()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29669383,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I fill in computer name field with \"1234567890123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234567890123",
+                  "offset": 36
+                }
+              ],
+              "location": "createNewRegister.computerName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12632929,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I fill in introduced date field with \"1999-08-03\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1999-08-03",
+                  "offset": 38
+                }
+              ],
+              "location": "createNewRegister.introducedDate(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11404164,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I fill in discontinued date field with \"2099-08-03\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2099-08-03",
+                  "offset": 40
+                }
+              ],
+              "location": "createNewRegister.discontinuedDate(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56724405,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select \"Canon\" option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Canon",
+                  "offset": 10
+                }
+              ],
+              "location": "createNewRegister.selectCompany(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 341186816,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click create this computer button",
+            "match": {
+              "location": "createNewRegister.createThisComputer()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12370180,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I verify success message is displayed",
+            "match": {
+              "location": "createNewRegister.verifySuccessMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@BACKBASE-01"
+          }
+        ]
+      }
+    ],
+    "name": "Create new computer register",
+    "description": "\r\nIn order to create a new computer register\r\nI want to fill in all  fields",
+    "id": "create-new-computer-register",
+    "keyword": "Feature",
+    "uri": "Backbase01-Create.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 16312249,
+              "status": "passed"
+            },
+            "match": {
+              "location": "updateRegister.beforeMethod()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "update computer register",
+        "description": "",
+        "id": "update-existing-computer-register;update-computer-register;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 265403606,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on homepage",
+            "match": {
+              "location": "createNewRegister.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 205735993,
+              "error_message": "org.openqa.selenium.NoSuchElementException: Returned node was not a DOM element\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.7.1\u0027, revision: \u00278a0099a\u0027, time: \u00272017-11-06T21:01:39.354Z\u0027\nSystem info: host: \u0027LEDANNY\u0027, ip: \u0027192.168.99.1\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_91\u0027\nDriver info: driver.version: HtmlUnitDriver\r\n\tat org.openqa.selenium.htmlunit.HtmlUnitDriver.findElementByCssSelector(HtmlUnitDriver.java:1252)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)\r\n\tat org.openqa.selenium.htmlunit.HtmlUnitDriver$4.call(HtmlUnitDriver.java:1970)\r\n\tat org.openqa.selenium.htmlunit.HtmlUnitDriver$4.call(HtmlUnitDriver.java:1)\r\n\tat org.openqa.selenium.htmlunit.HtmlUnitDriver.implicitlyWaitFor(HtmlUnitDriver.java:1606)\r\n\tat org.openqa.selenium.htmlunit.HtmlUnitDriver.findElement(HtmlUnitDriver.java:1966)\r\n\tat org.openqa.selenium.htmlunit.HtmlUnitDriver.findElement(HtmlUnitDriver.java:754)\r\n\tat pageObjects.computersPageObject.searchboxInput(computersPageObject.java:58)\r\n\tat stepDefinitions.updateRegister.searchboxField(updateRegister.java:29)\r\n\tat ✽.When I fill in filter field with \"Nokia v1\"(Backbase02-Update.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "I fill in filter field with \"Nokia v1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nokia v1",
+                  "offset": 29
+                }
+              ],
+              "location": "updateRegister.searchboxField(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I click filter by name button",
+            "match": {
+              "location": "updateRegister.filterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I click \"Nokia v1\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nokia v1",
+                  "offset": 9
+                }
+              ],
+              "location": "updateRegister.clickLinkFound(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I update computer name field with \"adfasdfasdf\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "adfasdfasdf",
+                  "offset": 35
+                }
+              ],
+              "location": "updateRegister.updateName(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I update introduced date field with \"1579-01-31\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1579-01-31",
+                  "offset": 37
+                }
+              ],
+              "location": "updateRegister.updateIntroducedDate(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I update discontinued date field with \"3579-01-31\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3579-01-31",
+                  "offset": 39
+                }
+              ],
+              "location": "updateRegister.updateDiscontinuedDate(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I update \"RCA\" option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "RCA",
+                  "offset": 10
+                }
+              ],
+              "location": "updateRegister.updateSelectCompany(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I click save this computer button",
+            "match": {
+              "location": "updateRegister.saveThisComputer()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I verify update message is displayed",
+            "match": {
+              "location": "updateRegister.verifyUpdateMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@BACKBASE-004"
+          }
+        ]
+      }
+    ],
+    "name": "Update existing computer register",
+    "description": "\r\nAs order to update a computer register\r\nI want to populate the fields with new data info",
+    "id": "update-existing-computer-register",
+    "keyword": "Feature",
+    "uri": "Backbase02-Update.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 20590145,
+              "status": "passed"
+            },
+            "match": {
+              "location": "updateRegister.beforeMethod()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "delete computer register",
+        "description": "",
+        "id": "delete-existing-computer-register;delete-computer-register;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 109529731,
+              "error_message": "java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:754)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:124)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:41)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:141)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:158)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:120)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:98)\r\n\tat stepDefinitions.deleteRegister.userInHPage(deleteRegister.java:20)\r\n\tat ✽.Given user is in computer homepage(Backbase03-Delete.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "user is in computer homepage",
+            "match": {
+              "location": "deleteRegister.userInHPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I fill in search field with \"Erikson v2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Erikson v2",
+                  "offset": 29
+                }
+              ],
+              "location": "deleteRegister.searchFieldr(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I click filter button",
+            "match": {
+              "location": "deleteRegister.filterButtonr()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I click \"Erikson v2\" link to delete",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Erikson v2",
+                  "offset": 9
+                }
+              ],
+              "location": "deleteRegister.clickDelLink(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I click delete this computer button",
+            "match": {
+              "location": "deleteRegister.deleteThisComputer()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I verify delete message is displayed",
+            "match": {
+              "location": "deleteRegister.verifyDeleteMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@BACKBASE-005"
+          }
+        ]
+      }
+    ],
+    "name": "Delete existing computer register",
+    "description": "\r\nAs order to delete a computer register\r\nI want to click delete button",
+    "id": "delete-existing-computer-register",
+    "keyword": "Feature",
+    "uri": "Backbase03-Delete.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11664861,
+              "status": "passed"
+            },
+            "match": {
+              "location": "updateRegister.beforeMethod()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Validate element exist in computer database layout",
+        "description": "",
+        "id": "validate-element-exist-in-computer-database-layout;validate-element-exist-in-computer-database-layout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11840575,
+              "error_message": "java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:754)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:124)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:41)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:141)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:158)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:120)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:98)\r\n\tat stepDefinitions.validateOverlay.userHP(validateOverlay.java:18)\r\n\tat ✽.Given user open computers page(Backbase04-Overlay.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "user open computers page",
+            "match": {
+              "location": "validateOverlay.userHP()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I validate masthead is displayed with title text",
+            "match": {
+              "location": "validateOverlay.mastheadDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I validate masthead title is clickable",
+            "match": {
+              "location": "validateOverlay.mastheadClickable()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I validate title exist and display available resources",
+            "match": {
+              "location": "validateOverlay.titleAvailable()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I validate search box exist",
+            "match": {
+              "location": "validateOverlay.searchboxExist()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I validate filter by name button exist",
+            "match": {
+              "location": "validateOverlay.filterButtonExist()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I validate table exist",
+            "match": {
+              "location": "validateOverlay.tableExist()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I validate pagination buttons exist",
+            "match": {
+              "location": "validateOverlay.paginationExist()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@BACKBASE-001"
+          }
+        ]
+      }
+    ],
+    "name": "Validate element exist in computer database layout",
+    "description": "\r\nAs order to perform actions with the page elements\r\nwe need to verify if all those elements are displayed.",
+    "id": "validate-element-exist-in-computer-database-layout",
+    "keyword": "Feature",
+    "uri": "Backbase04-Overlay.feature"
+  }
+]
