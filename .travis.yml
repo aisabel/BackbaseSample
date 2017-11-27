@@ -25,4 +25,4 @@ before_install:
 
 script:
   - mvn -q install
-  - mvn test src/test/java/stepDefinitions/RunTest.java
+  - mvn test
