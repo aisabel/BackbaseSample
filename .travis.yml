@@ -3,7 +3,7 @@ jdk:
   - oraclejdk8
 
 install:
-  - mvn -q install --also-make --picocontainer -DskipTests=true -Dmaven.javadoc.skip=true
+  - mvn install -
 
 before_install:
 - mvn test -B
