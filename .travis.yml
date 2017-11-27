@@ -9,4 +9,4 @@ before_install:
 - mvn test -B
 
 script:
-  - run Backbase-Testing-Framework.iml  --reporter-html-export output/htmlCIResults.html
+  - ./mvnw clean install
