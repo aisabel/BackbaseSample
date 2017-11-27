@@ -12,6 +12,9 @@
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+        <gherkin.version>5.0.0</gherkin.version>
+        <picocontainer.version>2.15</picocontainer.version>
+        <junit.version>4.11</junit.version>
     </properties>
 
     <build>
