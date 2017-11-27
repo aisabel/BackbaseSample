@@ -4,7 +4,7 @@
 <h2>Business Requirement:</h2>
 <p align="justified">Create automated tests to cover at least the CRUD (create, read, update, delete) operations on a website that contains a DB of computers. (http://computer-database.herokuapp.com/computers). </p>
 
-<h2>Description:</h2>
+<h2>TestFramework Description:</h2>
 <p align="justified">This test suite was designed to meet business requirements by implementing a combination of automated test cases and manual tests.</br>
 Regardling automation: Cucumber framework has been selected by their capability to display human readable instructions in the tests (gherking language); combined with Selenium to easy locate elements in a powerful faster headless browser, using JUnit for assertion results; getting as a result an automated report.By using Page Object Pattern we ensure the reusability of methods for step definitions and a centralized UI coupling. Configured to be continuosly integrated in Travis for a fast pace development environment.</p>
 
