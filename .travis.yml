@@ -6,7 +6,7 @@ install:
   - mvn install
 
 before_install:
-mvn test -B
+- mvn test -B
 
 script:
   - run /Backbase-TestingFramework/Backbase-Testing-Framework.iml  --reporter-html-export BackbaseTestingFramework/output/htmlCIResults.html
