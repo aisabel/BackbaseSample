@@ -10,6 +10,7 @@ before_cache:
   - rm -f $HOME/.m2/repository/io/cucumber
   
 before_install:
+  - mvn test -B
   - wget http://apache.claz.org/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz
   - tar zxvf apache-maven-3.3.9-bin.tar.gz
   - chmod +x apache-maven-3.3.9/bin/mvn
@@ -19,9 +20,6 @@ before_install:
 
 install:
   - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
-
-before_install:
-- mvn test -B
 
 script:
   - mvn clean install
