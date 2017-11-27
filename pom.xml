@@ -4,6 +4,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <groupId>Backbbase-testingFramework</groupId>
+    <artifactId>Backbase-testingFramework</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <properties>
+            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        </properties>
+    </properties>
+
     <build>
         <plugins>
             <plugin>
@@ -11,6 +24,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.7.0</version>
                 <configuration>
+                    <encoding>UTF-8</encoding>
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
@@ -22,7 +36,7 @@
                 <configuration>
                     <configuration>
                         <includes>
-                            <include>**/RunTests.java</include>
+                            <include>**/RunTest.java</include>
                         </includes>
                     </configuration>
                 </configuration>
@@ -30,14 +44,6 @@
         </plugins>
     </build>
 
-    <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-    </properties>
-
-    <groupId>Backbbase-testingFramework</groupId>
-    <artifactId>Backbase-testingFramework</artifactId>
-    <version>1.0-SNAPSHOT</version>
 
     <dependencies>
     <dependency>
