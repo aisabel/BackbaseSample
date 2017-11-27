@@ -9,4 +9,4 @@ before_install:
 - mvn test -B
 
 script:
-  - mwn clean install
+  - mvn clean install
