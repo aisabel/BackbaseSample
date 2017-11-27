@@ -1,11 +1,12 @@
 # BackbaseTestingFramework
+<img src="https://travis-ci.org/aisabel/BackbaseTestFramework.svg?branch=master">
 
 <h2>Business Requirement:</h2>
 <p align="justified">Create automated tests to cover at least the CRUD (create, read, update, delete) operations on a website that contains a DB of computers. (http://computer-database.herokuapp.com/computers). </p>
 
 <h2>Description:</h2>
 <p align="justified">This test suite was designed to meet business requirements by implementing a combination of automated test cases and manual tests.</br>
-Regardling automation: Cucumber framework has been selected by their capability to display human readable instructions in the tests (gherking language); combined with Selenium to easy locate elements in a powerful faster headless browser, using JUnit for assertion results; getting as a result an automated report.By using Page Object Pattern we ensure the reusability of methods for step definitions and a centralized UI coupling.</p>
+Regardling automation: Cucumber framework has been selected by their capability to display human readable instructions in the tests (gherking language); combined with Selenium to easy locate elements in a powerful faster headless browser, using JUnit for assertion results; getting as a result an automated report.By using Page Object Pattern we ensure the reusability of methods for step definitions and a centralized UI coupling. Configured to be continuosly integrated in Travis for a fast pace development environment.</p>
 
 <h2>Specifications, Frameworks and IDE tools:</h2>
 <ul><li>IDE:<a href="https://www.jetbrains.com/idea/download/#section=windows"> *IntelijIDEA 15.0.1</a></li></ul>
@@ -61,6 +62,7 @@ Backbase-TestingFramework/
 <ul><li>Backbase-TestingFramework.iml</li></ul>
 <ul><li><a href="https://github.com/aisabel/BackbaseTestFramework/blob/master/Backbase-TestingFramework/pom.xml">pom.xml</a> = Maven dependency file to load required libraries</li></ul>
 <ul><li>Manual tests</li></ul>
+<ul><li>.travis.yml = Configuration file to run in CI</li></ul>
 
 
 <h2>Install: How to run tests locally (Documentation steps in progress...)</h2>
