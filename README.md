@@ -6,7 +6,7 @@
 
 <h2>TestFramework Description:</h2>
 <p align="justified">This test suite was designed to meet business requirements by implementing a combination of automated test cases and manual tests.</br>
-Regardling automation: Cucumber framework has been selected by their capability to display human readable instructions in the tests (gherking language); combined with Selenium to easy locate elements in a powerful faster headless browser, using JUnit for assertion results; getting as a result an automated report.By using Page Object Pattern we ensure the reusability of methods for step definitions and a centralized UI coupling. Configured to be continuosly integrated in Travis for a fast pace development environment.</p>
+Regardling automation: Cucumber framework has been selected by their capability to display human readable instructions in the tests (gherking language); combined with Selenium to easy locate elements in a powerful faster headless browser, using JUnit for assertion results; getting as a result an automated report. By using Page Object Pattern we ensure the reusability of methods for step definitions and a centralized UI coupling. This test suite is configured to be continuosly integrated in <a href="https://travis-ci.org/aisabel/BackbaseTestFramework">Travis</a> for a fast pace development environment.</p>
 
 <h2>Specifications, Frameworks and IDE tools:</h2>
 <ul><li>IDE:<a href="https://www.jetbrains.com/idea/download/#section=windows"> *IntelijIDEA 15.0.1</a></li></ul>
@@ -73,9 +73,8 @@ Backbase-TestingFramework/
   <li>Go to path src > test > stepDefinitions and select file RunTest. Right click to display context menu and click > Run'Run Test option. This action will display a new window with the progress for testing running.</li>
  </ul>
  
- <ul> Test can be also runned by console using maven with the following command
-  <li>  - mvn test -B</li>
- </ul>
+ <ul> Test can be also runned by console using maven with the following command: - mvn test -B </ul>
+
 
 <h3>External references (more info)</h3>
 <ul>
