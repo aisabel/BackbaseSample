@@ -1,0 +1,12 @@
+language: java
+jdk:
+  - oraclejdk8
+
+install:
+  - mvn install --also-make --projects android,picocontainer -DskipTests=true -Dmaven.javadoc.skip=true
+
+before_script:
+mvn test -B
+
+script:
+  - run /Backbase-TestingFramework/Backbase-Testing-Framework.iml  --reporter-html-export BackbaseTestingFramework/output/htmlCIResults.html
