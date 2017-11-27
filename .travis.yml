@@ -3,7 +3,7 @@ jdk:
   - oraclejdk8
 
 install:
-  - mvn install -
+  - mvn install
 
 before_install:
 - mvn test -B
