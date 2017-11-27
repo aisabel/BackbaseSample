@@ -18,7 +18,7 @@ Regardling automation: Cucumber framework has been selected by their capability 
   <li><a href="https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin">*Maven compiler 3.7.0</a></li>
 </ul>
 <p>Other dependencies used:
-    <ul><li>Cucumber-java8 1.2.5, Cucumber-jvm 1.2.5, Cucumber-jUnit 1.2.5, Cucumber-testing 1.2.5, Cucumber picontainer 1.2.5, Selenium-server 3.7.1, selenium-htmlunit-driver, log4j 1.2.17</li></ul>
+    <ul><li>Cucumber-java8 1.2.5, Cucumber-jvm 1.2.5, Cucumber-jUnit 1.2.5, Cucumber picontainer 1.2.5, Selenium-server 3.7.1, selenium-htmlunit-driver, log4j 1.2.17</li></ul>
     
 <p>Note: Maven project will download automatically those framework external libraries based upon the dependencies in pom.xml file. But if in any case you need to go back directly to the source and install manually, each one of the links above leads you to the repositories.</p>
 
@@ -71,6 +71,10 @@ Backbase-TestingFramework/
   <p>Open Intellij, Go to Settings -> Plugins,  Choose to install Cucumber for JAVA plugin, and Gherking plugin. You might need to restart the IDE.</p>
   <li>Import project folder as a Maven project</li>
   <li>Go to path src > test > stepDefinitions and select file RunTest. Right click to display context menu and click > Run'Run Test option. This action will display a new window with the progress for testing running.</li>
+ </ul>
+ 
+ <ul> Test can be also runned by console using maven with the following command
+  <li>  - mvn test -B</li>
  </ul>
 
 <h3>External references (more info)</h3>
