@@ -5,10 +5,10 @@
 
 <h2>Description:</h2>
 <p align="justified">This test suite was designed to meet business requirements by implementing a combination of automated test cases and manual tests.</br>
-Regardless automation: Cucumber framework has been selected by their capability to display human readable instructions in the tests; combined with Selenium to easy locate elements in a powerful headless browser, using JUnit for assertion results; getting as a result an automated report.By using Page Object Pattern we ensure the reusability of methods for step definitions and a centralized UI coupling.</p>
+Regardling automation: Cucumber framework has been selected by their capability to display human readable instructions in the tests (gherking language); combined with Selenium to easy locate elements in a powerful faster headless browser, using JUnit for assertion results; getting as a result an automated report.By using Page Object Pattern we ensure the reusability of methods for step definitions and a centralized UI coupling.</p>
 
 <h2>Specifications, Frameworks and IDE tools:</h2>
-<ul><li><a href="https://www.jetbrains.com/idea/download/#section=windows">IDE: *IntelijIDEA 15.0.1</a></li></ul>
+<ul><li>IDE:<a href="https://www.jetbrains.com/idea/download/#section=windows"> *IntelijIDEA 15.0.1</a></li></ul>
 <ul><li><a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html"> *Java with package (JDK 1.8)</a>Baseline Programming Language</li></ul>
 <ul>Main Frameworks:
   <li><a href="https://mvnrepository.com/artifact/info.cukes/cucumber-java>*Cucumber framework 1.2.5</a></li>
@@ -63,7 +63,7 @@ Backbase-TestingFramework/
 <ul><li>Manual tests</li></ul>
 
 
-<h2>Install: How to run tests locally (Documentation in progress...)</h2>
+<h2>Install: How to run tests locally (Documentation steps in progress...)</h2>
 <ul>
   <li>Install Intelij </li>
   <p>Open Intellij, Go to Settings -> Plugins,  Choose to install Cucumber for JAVA plugin, and Gherking plugin. You might need to restart the IDE.</p>
