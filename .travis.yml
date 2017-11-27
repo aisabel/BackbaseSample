@@ -9,4 +9,4 @@ before_install:
 - mvn test -B
 
 script:
-  - run /Backbase-TestingFramework/Backbase-Testing-Framework.iml  --reporter-html-export BackbaseTestingFramework/output/htmlCIResults.html
+  - run Backbase-Testing-Framework.iml  --reporter-html-export output/htmlCIResults.html
