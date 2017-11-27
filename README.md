@@ -4,7 +4,7 @@
 <p align="justified">Create automated tests to cover at least the CRUD (create, read, update, delete) operations on a website that contains a DB of computers. (http://computer-database.herokuapp.com/computers). </p>
 
 <h2>Description:</h2>
-<p align="justified">This test suite was designed to meet business requirements by implementing a combination of automated test cases and manual tests for coverage.</br>
+<p align="justified">This test suite was designed to meet business requirements by implementing a combination of automated test cases and manual tests.</br>
 Regardless automation: Cucumber framework has been selected by their capability to display human readable instructions in the tests; combined with Selenium to easy locate elements in a powerful headless browser, using JUnit for assertion results; getting as a result an automated report.By using Page Object Pattern we ensure the reusability of methods for step definitions and a centralized UI coupling.</p>
 
 <h2>Specifications, Frameworks and IDE tools:</h2>
@@ -63,14 +63,13 @@ Backbase-TestingFramework/
 <ul><li>Manual tests</li></ul>
 
 
-
-<h2>Setup Instructions</h2>
-In progress...
+<h2>Install: How to run tests locally (Documentation in progress...)</h2>
 <ul>
   <li>Install Intelij </li>
-  <p>Open Intellij, Go to Preferences -> Plugins,  Choose to install Cucumber for JAVA plugin. You might need to restart the IDE.</p>
+  <p>Open Intellij, Go to Settings -> Plugins,  Choose to install Cucumber for JAVA plugin, and Gherking plugin. You might need to restart the IDE.</p>
   <li>Import project folder as a Maven project</li>
   <li>Go to path src > test > stepDefinitions and select file RunTest. Right click to display context menu and click > Run'Run Test option. This action will display a new window with the progress for testing running.</li>
+ </ul>
 
 <h3>External references (more info)</h3>
 <ul>
