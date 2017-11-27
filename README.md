@@ -70,10 +70,11 @@ Backbase-TestingFramework/
   <li>Install Intelij </li>
   <p>Open Intellij, Go to Settings -> Plugins,  Choose to install Cucumber for JAVA plugin, and Gherking plugin. You might need to restart the IDE.</p>
   <li>Import project folder as a Maven project</li>
-  <li>Go to path src > test > stepDefinitions and select file RunTest. Right click to display context menu and click > Run'Run Test option. This action will display a new window with the progress for testing running.</li>
+  <li>Go to path src > test > stepDefinitions and select file RunTest. </li>
+  <li>Right click to display context menu and click > Run'Run Test option. This action will display a new window with the progress for testing running.</li>
  </ul>
  
- <ul> Test can be also runned by console using maven with the following command: - mvn test -B </ul>
+ <ul><li>Test can be also runned by console using maven with the following command: - mvn test -B</ili</ul>
 
 
 <h3>External references (more info)</h3>
