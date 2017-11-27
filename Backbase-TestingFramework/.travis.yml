@@ -3,9 +3,10 @@ jdk:
   - oraclejdk8
 
 install:
-  - mvn install --also-make --projects android,picocontainer -DskipTests=true -Dmaven.javadoc.skip=true
+  - mvn -q install --also-make --picocontainer -DskipTests=true -Dmaven.javadoc.skip=true
 
 before_script:
+mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 mvn test -B
 
 script:
