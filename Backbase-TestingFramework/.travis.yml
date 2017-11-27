@@ -6,7 +6,7 @@ install:
   - mvn -q install --also-make --picocontainer -DskipTests=true -Dmaven.javadoc.skip=true
 
 before_script:
-mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+mvn install
 mvn test -B
 
 script:
