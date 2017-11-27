@@ -5,9 +5,8 @@ jdk:
 install:
   - mvn -q install --also-make --picocontainer -DskipTests=true -Dmaven.javadoc.skip=true
 
-before_script:
-mvn install
-mvn test -B
+before_install:
+- mvn test -B
 
 script:
   - run /Backbase-TestingFramework/Backbase-Testing-Framework.iml  --reporter-html-export BackbaseTestingFramework/output/htmlCIResults.html
