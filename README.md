@@ -1,5 +1,5 @@
 # TestingFramework
-https://travis-ci.org/aisabel/Testing-CCI.svg?branch=master
+[![Build Status](https://travis-ci.org/aisabel/Testing-CCI.svg?branch=master)](https://travis-ci.org/aisabel/Testing-CCI)
 
 <h2>Business Requirement:</h2>
 <p align="justified">Create automated tests to cover at least the CRUD (create, read, update, delete) operations on a website that contains a DB of computers.</p>
